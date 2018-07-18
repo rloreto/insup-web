@@ -11,7 +11,8 @@
     "e2e": "node test/e2e/runner.js",
     "test": "npm run unit && npm run e2e",
     "lint": "eslint --ext .js,.vue src test/unit test/e2e/specs",
-    "build": "node build/build.js"
+    "build": "node build/build.js",
+    "prod": "node build/build.js && node server"
   },
   "dependencies": {
     "axios": "^0.18.0",
@@ -19,6 +20,7 @@
     "bootstrap-vue": "^2.0.0-rc.11",
     "chart.js": "^2.7.2",
     "moment": "^2.22.2",
+    "node-static": "^0.7.10",
     "vue": "^2.5.2",
     "vue-chartjs": "^3.3.2",
     "vue-router": "^3.0.1"
