@@ -25,7 +25,7 @@ export default {
   mounted() {
     var _this = this;
     var url =
-      'http://insupapi.azurewebsites.net/userRequestReports?username=quierobesarte.es';
+      'https://insupapi.azurewebsites.net/userRequestReports?username=quierobesarte.es';
     var config = {
       url: url,
       method: 'get',
